@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    z-index: 3;
+    color: white;
+    font-size: 90px;
+}
+
+section{
+    height: 100vh;
+}
+
+#section2{
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+
+#vector{
+    height: 25rem;
+    width: 100%;
+    background-color: white;
+}
+
+.left h1, .left p{
+    color: black;
+}
+
+.right{
+    padding: 2rem;
+    background-color: white;
+
+    height: fit-content;
+}
+
+#section1{
+    height: 100vh;
+    /* background-image: url("./src/img/women1.jpg"); */
+    background-image: url("./src/img/Banner-01.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.mask{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.673);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    text-align: center;
+    padding: 0 3rem 0 3rem;
+}
+
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+p{
+    z-index: 3;
+    color: white;
+}
+
+#section3{
+
+    padding: 4rem;
+    /* background-color: rgb(113, 25, 255); */
+    background-image: url("./src/img/Gradient.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.carousel { width:350px; height:350px; }
+/* .carousel { width:320px; height:180px; } */
+
+.corouselClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.para{
+    font-size: 1.5vw;
+}
+.content h2{
+
+    color: white;
+}
+
+.content{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+#section4 p, #section4 h1{
+    color:black;
+}
+
+.mintSection{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.mintSection button{
+    width: 4rem;
+    margin-top: 3rem;
+    background-color: rgb(113, 25, 255);
+}
+
+footer{
+    background-color: rgb(113, 25, 255);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+    margin-top: 20rem;
+}
+footer p{
+    color: white;
+}
+
+.purple{
+    color:rgb(113, 25, 255);
+}
+
+.profile img{
+    height: 30px;
+    border-radius: 1rem;
+    margin-top: 4px;
+
+}
+
+.profile{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-self: end;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+i{
+    font-size: 25px;
+}
+
+span{
+    padding: 4px;
+    padding-top: 4px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#opensea, #mynft{
+    height: 50px;
+    position: fixed;
+    bottom: 1rem;
+    z-index: 4;
+    right: 4px;
+    cursor: pointer;
+}
+
+#mynft{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-bottom: 4rem;
+    background-color: #2081E2;
+    border-radius: 3rem;
+    color: white;
+}
+
+.mylink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+{
+
+    #vector  {
+       display:none;
+    }
+}
