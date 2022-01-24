@@ -70,6 +70,8 @@ section{
     padding: 0 3rem 0 3rem;
 }
 
+
+
 .container-fluid{
     padding-right: 0px;
     padding-left: 0px;
@@ -163,12 +165,13 @@ footer p{
     height: 30px;
     border-radius: 1rem;
     margin-top: 4px;
+    margin-right: 4px;
 
 }
 
 .profile{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: row;
     justify-self: end;
 }
@@ -231,6 +234,12 @@ a{
     }
 } */
 
+.feature p{
+    font-size: 2vw;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
 @media (max-width:640px){
     #vector{
         display:none;
@@ -241,4 +250,34 @@ a{
     #whoarewe{
         font-size: 3rem;
     }
+    /* .profile{
+        align-items: flex-start;
+    } */
+
+     .feature p{
+        font-size: 18px;
+        margin-right: none;
+        margin-bottom: 2rem;
+    }
+}
+
+.feature{
+    z-index: 4;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.699);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    backdrop-filter: blur(10px);
+}
+
+.feature #closeBtn{
+    z-index: 5;
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 20px;
 }

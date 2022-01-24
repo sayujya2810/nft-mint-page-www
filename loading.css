@@ -4,4 +4,6 @@
     width: 100%;
     background: #fff url('./src/img/loading.gif') no-repeat center;
     z-index: 5;
+    top: 0;
 }
+
