@@ -24,7 +24,8 @@ section{
 }
 
 #vector{
-    height: 25rem;
+    margin-top: 5rem;
+    height: 20rem;
     width: 100%;
     background-color: white;
 }
@@ -48,6 +49,10 @@ section{
     background-attachment: fixed;
     background-size: cover;
 
+}
+
+#whoarewe{
+    font-size: 6vw;
 }
 
 .mask{
@@ -95,7 +100,7 @@ p{
     border-radius: 20px;
 }
 .para{
-    font-size: 1.5vw;
+    font-size: 1.75vw;
 }
 .content h2{
 
@@ -212,7 +217,7 @@ a{
 }
 
 /* Portrait and Landscape */
-@media screen 
+/* @media screen 
   and (device-width: 320px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) 
@@ -220,5 +225,17 @@ a{
 
     #vector  {
        display:none;
+    }
+} */
+
+@media (max-width:640px){
+    #vector{
+        display:none;
+    }
+    .para{
+        font-size: 1rem;
+    }
+    #whoarewe{
+        font-size: 3rem;
     }
 }
